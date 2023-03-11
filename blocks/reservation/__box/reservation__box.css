@@ -16,5 +16,6 @@
   .reservation__box {
     flex-direction: column;
     row-gap: 50px;
+		margin: 50px auto 40px;
   }
 }

@@ -1,5 +1,6 @@
 .illustration__main-image {
 	max-width: 1090px;
+	position: relative;
 }
 
 @media screen and (max-width: 1023px) {
