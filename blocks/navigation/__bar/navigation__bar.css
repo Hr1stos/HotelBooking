@@ -1,0 +1,21 @@
+.navigation__bar {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background: rgba(250, 176, 71, 0.35);
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  margin: 0;
+}
+
+.navigation__bar:hover {
+  background: #FAB047;
+  width: 12px;
+  height: 12px;
+}
+
+.navigation__bar:active{
+  width: 12px;
+  height: 12px;
+  background: #FAB047;
+}

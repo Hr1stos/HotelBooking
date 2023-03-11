@@ -1,0 +1,10 @@
+.reviews__user {
+  max-width: 152px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #192252;
+  margin: 40px auto 0;
+}

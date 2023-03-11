@@ -1,0 +1,14 @@
+.intro__button {
+	padding: 16px 32px;
+	max-width: 180px;
+	max-height: 51px;
+	margin: 59px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.intro__button {
+		margin: 50px 0 0;
+		max-width: 140px;
+		max-height: 45px;
+	}
+}

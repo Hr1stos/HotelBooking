@@ -1,0 +1,10 @@
+.submission__container_first {
+	display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+	.submission__container_first {
+		flex-direction: column;
+	}
+}
+

@@ -1,0 +1,9 @@
+.illustration__main-image {
+	max-width: 1090px;
+}
+
+@media screen and (max-width: 1023px) {
+	.illustration__main-image {
+		width: 100%;
+	}
+}

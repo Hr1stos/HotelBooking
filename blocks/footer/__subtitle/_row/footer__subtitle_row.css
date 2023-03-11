@@ -1,0 +1,6 @@
+@media screen and (max-width: 1250px){
+    .footer__subtitle_row{
+      max-width: 200px;
+      text-align: center;
+    }
+  }

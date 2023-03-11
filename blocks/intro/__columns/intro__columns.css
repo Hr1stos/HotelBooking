@@ -1,0 +1,11 @@
+.intro__columns {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 24px;
+}
+
+@media screen and (max-width: 588px) {
+	.intro__columns {
+		column-gap: 10px;
+	}
+}

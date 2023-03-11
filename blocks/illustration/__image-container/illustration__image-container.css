@@ -1,0 +1,15 @@
+.illustration__image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+	.illustration__image-container {
+		margin-top: 10px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 3px;
+		margin-top: 3px;
+	}
+}

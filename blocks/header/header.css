@@ -1,0 +1,13 @@
+.header {
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    position: fixed;
+    background-color: #0B265A;
+    z-index: 5;
+  }
+}

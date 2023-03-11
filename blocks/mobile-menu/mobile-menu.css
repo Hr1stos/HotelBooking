@@ -1,0 +1,15 @@
+.mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .mobile-menu {
+    display: block;
+  }
+}

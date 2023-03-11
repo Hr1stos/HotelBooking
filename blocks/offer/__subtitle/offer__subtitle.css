@@ -1,0 +1,22 @@
+.offer__subtitle {
+	font-weight: 400;
+	font-size: calc(12px + 6 * (100vw / 1440));
+	line-height: 150%;
+	color: #848FAC;
+	max-width: 584px;
+	margin: 28px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.offer__subtitle {
+		font-size: calc(12px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
+	}
+}
+
+@media screen and (max-width: 785px) {
+	.offer__subtitle {
+		margin: 24px auto 0;
+		text-align: center;
+	}
+}
+

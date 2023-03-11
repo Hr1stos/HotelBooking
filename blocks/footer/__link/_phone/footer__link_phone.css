@@ -1,0 +1,7 @@
+.footer__link_phone{
+    opacity: 0.5;
+    transition: opacity 0.3s linear;
+  }
+  .footer__link_phone:hover{
+    opacity: 1;
+  }

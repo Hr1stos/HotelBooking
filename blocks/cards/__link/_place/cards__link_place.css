@@ -1,0 +1,9 @@
+.cards__link_place {
+	margin: 32px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+	.cards__link_place {
+		margin-bottom: auto;
+	}
+}

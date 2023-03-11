@@ -1,0 +1,9 @@
+.page__content {
+	max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Montserrat', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

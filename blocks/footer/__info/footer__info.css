@@ -1,0 +1,10 @@
+.footer__info{
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 1250px){
+    .footer__info{
+      align-items: center;
+      row-gap: 20px;
+    }
+  }

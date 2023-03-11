@@ -1,0 +1,10 @@
+.reservation__home {
+  max-width: 238px;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  margin: 32px auto 0 0;
+}

@@ -1,0 +1,22 @@
+.cards__link {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: calc(12px + 6 * (100vw / 1440));
+	line-height: 150%;
+	color: #424F7B;
+	margin: 59px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+	.cards__link {
+		justify-self: end;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.cards__link {
+		font-size: calc(12px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
+		/*margin: 0;*/
+	}
+}

@@ -1,0 +1,22 @@
+.offer__title {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: calc(16px + 20 * (100vw / 1440));
+	line-height: 150%;
+	letter-spacing: -0.01em;
+	color: #192252;
+	margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.offer__title {
+		font-size: calc(16px + (20 + 20 * 0.45) * ((100vw - 320px) / 1440));
+	}
+}
+
+@media screen and (max-width: 785px) {
+	.offer__title {
+		text-align: center;
+	}
+}
+
